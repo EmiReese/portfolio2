@@ -1,38 +1,61 @@
-.App {
+body {
+  background-color: #d7d7db;
+  color: #0c0608;
+}
+
+/* HEADER */
+
+.header h1 {
   text-align: center;
+  padding-top: 5%;
+  font-size: 2.5 rem;
 }
+/* PORTFOLIO  CARDS */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.page-section {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  padding: 5%;
+  margin-top: 5%;
+}
+
+p {
+  width: 70%;
+  word-wrap: normal;
+  font-size: 1.5rem;
+  margin-left: 10%;
+  font-family: "Unna", serif;
+}
+
+.portfolioImg {
+  height: 25rem;
+  width: 18.75rem;
+  padding: 0;
+  margin: 0;
+  box-shadow: 0.31rem 0.625rem 1.125rem #0c0608;
+  opacity: 0.3s;
+}
+.portfolioImg:hover {
+  transform: translate(1%, -6%);
+}
+
+.portfolio1 {
+  height: 25rem;
+  width: 18.75rem;
+}
+
+.address a {
+  padding: 2%;
+}
+
+#workSection {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.nav {
+  padding-top: 5%;
+  font-size: 1.7 rem;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

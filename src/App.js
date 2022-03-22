@@ -1,24 +1,56 @@
-import logo from './logo.svg';
-import './App.css';
+// Importing frameworks and programs
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import '../src/App.css';
 
+//Importing component 
+import Home from './pages/Home';
+import Portfolio from './pages/Portfolio';
+import Contact from './pages/Contact';
+
+
+//Connect to ApolloClient
+const client = new ApolloClient({
+  uri: '/graphql',
+  cache: new InMemoryCache(),
+});
+
+//the code above line 22 seems to be correct
+
+
+//These routes need to be created, this area is a work in progress
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ApolloProvider client={client}>
+      <Router>
+            <Routes>
+
+              <Route 
+              path="/portfolio2"
+              element={<Home/>} />
+
+              {/* The route for portfolios/homepage  */}
+              <Route 
+              path= "/"
+              element={<Home/>}
+               />
+
+              {/* The route for the about me section */}
+              <Route 
+              path= "/Portfolio"
+              element={<Portfolio/>}
+               />
+
+              {/* the path for the contact section */}
+              <Route path="/Contact"
+              element={<Contact/>} />
+
+            </Routes>
+
+      </Router>
+    </ApolloProvider>
   );
 }
 
