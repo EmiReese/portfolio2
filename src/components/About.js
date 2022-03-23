@@ -8,7 +8,7 @@ export default function About() {
       <Container fluid="lg">
         <Row>
           <Col xs={12} md={8}>
-            <p>
+            <p id="About">
             Motivated full stack developer involved in multiple projects using JavaScript
             and MERN Stack. Seeking an entry-level software developer position within teams that value communication, honesty, emotional intelligence, creativity, and problem-solving. Able to effectively self-manage during independent projects, as well as collaborate as part of a productive team working remotely or in-office.
             </p>

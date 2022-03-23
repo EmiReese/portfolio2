@@ -3,6 +3,8 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import About from '../components/About';
 import PortfolioContainer from '../components/PortfolioContainer';
+import ContactInfo from '../components/ContactInfo';
+
 export default function Home () {               
     return (
         <div>
@@ -14,6 +16,7 @@ export default function Home () {
             <Header />
             <About />
             <PortfolioContainer />
+            <ContactInfo />
             <Footer />
         </div>
 );

@@ -14,13 +14,13 @@ export default function NavContainer() {
     <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
       <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="/">About</a>
+          <a className="nav-link active" aria-current="page" href="#About">About</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="/Portfolio">Portfolio</a>
+          <a className="nav-link active" aria-current="page" href="#Portfolio">Portfolio</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link  active" aria-current="page" href="/Contact">Contact</a>
+          <a className="nav-link  active" aria-current="page" href="#Contact">Contact</a>
         </li>
         <li className="nav-item">
           <a className="nav-link active" href = { resume}  >Download Resume</a>
