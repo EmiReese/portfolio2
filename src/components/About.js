@@ -16,7 +16,7 @@ export default function About() {
 
           <Col xs={12} md={4}>
             <div className='d-flex justify-content-center'>
-              <img className="w-75 p-3 shadow p-3 mb-5 bg-white rounded border-right border-dark" src= {Emily} alt="Emily Reese" />
+              <img className="w-75 p-3 shadow p-3 mb-6 bg-white rounded border-right border-dark" src= {Emily} alt="Emily Reese" />
             </div>
           </Col>
       
