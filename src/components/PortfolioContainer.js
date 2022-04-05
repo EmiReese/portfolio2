@@ -18,7 +18,7 @@ export default function portfolioContainer (){
     <Col xs={12} md={6} lg={4} className = "p-3">
     
     <div className="portfolioItem">
-   
+   <h5>Virtual Pets</h5>
                   <a
                   className="repoLink"
                   href="https://virtualpets1234.herokuapp.com/" >
@@ -32,7 +32,7 @@ export default function portfolioContainer (){
 
 <Col xs={12} md={6} lg={4} className = "p-3">
     <div className="portfolioItem">
-    
+    <h5>HandyCart</h5>
     <a
                   className="repoLink"
                   href="https://github.com/EmiReese/mern-app"
@@ -46,7 +46,7 @@ export default function portfolioContainer (){
 
     <Col xs={12} md={6} lg={4}className = "p-3">
     <div className="portfolioItem">
-        
+        <h5>Charity Locator</h5>
     <a
                   className="repoLink"
                   href="https://cheez0id.github.io/Charity-Locator-Project-P1G7/"
