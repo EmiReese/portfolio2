@@ -17,10 +17,10 @@ export default function NavContainer() {
           <a className="nav-link active" aria-current="page" href="#About">About</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#Portfolio">Portfolio</a>
+          <a className="nav-link active" aria-current="page" href="/portfolio2/portfolio">Portfolio</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link  active" aria-current="page" href="#Contact">Contact</a>
+          <a className="nav-link  active" aria-current="page" href="/portfolio2/contact">Contact</a>
         </li>
         <li className="nav-item">
           <a className="nav-link active" href = { resume}  >Download Resume</a>

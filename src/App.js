@@ -39,12 +39,12 @@ function App() {
 
               {/* The route for the about me section */}
               <Route 
-              path= "/Portfolio"
+              path= "/portfolio2/portfolio"
               element={<Portfolio/>}
                />
 
               {/* the path for the contact section */}
-              <Route path="/Contact"
+              <Route path="/portfolio2/contact"
               element={<Contact/>} />
 
             </Routes>
