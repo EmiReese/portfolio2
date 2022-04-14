@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+To see the portfolio: https://emireese.github.io/portfolio2/
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This portfolio is a collection of the work I have created with other collaborators. In the description below, I have a short summary of each project and the technologies that were used. I added the collaborators github accounts at the bottom of the description. 
 
-## Available Scripts
+My portfolio was created using:
+- React 
+- Node.js
+- Apollo Client
+- Dotenv
+- Bootstrap
+- Images from Unsplash
 
-In the project directory, you can run:
 
-### `npm start`
+In this portfolio, I have three different projects.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  Virtual Pets- 
+    This is a full-stack application intended to help pet parents make Telehealth consultation appointments with Veterinarians and    post questions to an open forum. This was created by four student developers in one week at the Georgia Institute of Technology. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Technologies used: JavaScript, SQL, Handlebars, Node.js, ESLint, Dotenv, Express.js Sequelize, and Materalize 
 
-### `npm test`
+My contribution is on the front end of this application. I used Handlebars to create the structure of our application. I created the logic and design for four of our main pages using Handlebars, Javascript, and Materialize.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  HandyCart- 
+  
+    This is a retail purchasing application leveraging contact list technology and financial budget parameters. This project was created by four student developers within one week at the Georgia Institute of Technology. 
 
-### `npm run build`
+This is MERN full-stack application leveraging the following technologies: Javascript, React.js, Node.js, Apollo-Server-Express, GraphQL.js, Mongoose, Tailwind CSS, GitHub, vsCode, Heroku, Bcrypt, and MongoDB Atlas
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+My contribution to this project included the logic and design of the login-in/sign-up pages, the home page, and the profile page. I added routes and authentication.This is a retail purchasing application leveraging contact list technology and financial budget parameters. This project was created by four student developers within one week at the Georgia Institute of Technology. This is MERN full-stack application leveraging the following technologies: Javascript, React.js, Node.js, Apollo-Server-Express, GraphQL.js, Mongoose, Tailwind CSS, GitHub, vsCode, Heroku, Bcrypt, and MongoDB Atlas My contribution to this project included the logic and design of the login-in/sign-up pages, the home page, and the profile page. I added routes and authentication.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  ChairtyLocator- 
+    This application was created in one week by four student developers at the Georgia Institute of Technology. 
+An application intended to help underprivileged people or families connect to non-profit organizations closest to their location with resources such as food, clothing, and shelter. 
+We use the Charity Navigator Data API to help us search for charities that are closest to the location the user puts into the search bar. We use the Geocoding API to turn the addresses into geographic coordinates. These geographic coordinates are used to find the exact location of these organizations and display the results on Google Map using the Maps Javascript API. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Technologies used: vsCode, Figma, JavaScript, Charity Navigator Data API, Maps Javascript API, Geocoding API, Bootstrap, and Materialize
 
-### `npm run eject`
+My contribution to this project was the setup of the Geocoding API, the Maps Javascript API, and the CSS design using Bootstrap and Materialize.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Collaborators - Mary Prince, https://github.com/Cheez0id
+                Sheen Hahn, https://github.com/jhahnsheen
+                Triston Golden, https://github.com/TGolden95
+                Chris Sanchez, https://github.com/CSanchez486
+                Benny Kim, https://github.com/bennyykim
+                Charles Money, https://github.com/cmoney574
+                Wes Clark, https://github.com/WesClark92
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<img width="1680" alt="Screen Shot 2022-04-14 at 2 04 31 PM" src="https://user-images.githubusercontent.com/87937862/163450502-cd4bf7de-241e-4146-9975-b0e7175bbf78.png">
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<img width="1680" alt="Screen Shot 2022-04-14 at 2 04 38 PM" src="https://user-images.githubusercontent.com/87937862/163450509-6962b58d-2b4c-4f17-9f3d-d5f12fced88d.png">
