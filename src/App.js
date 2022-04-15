@@ -26,25 +26,20 @@ function App() {
     <ApolloProvider client={client}>
       <Router>
             <Routes>
-
-              <Route 
-              path="/portfolio2"
-              element={<Home/>} />
-
               {/* The route for portfolios/homepage  */}
               <Route 
-              path= "/"
+              path= "/portfolio2"
               element={<Home/>}
                />
 
               {/* The route for the about me section */}
               <Route 
-              path= "/portfolio"
+              path= "/portfolio2/portfolio"
               element={<Portfolio/>}
                />
 
               {/* the path for the contact section */}
-              <Route path="/contact"
+              <Route path="/portfolio2/contact"
               element={<Contact/>} />
 
             </Routes>
