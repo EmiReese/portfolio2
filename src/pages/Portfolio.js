@@ -3,7 +3,7 @@ import PortfolioContainer from '../components/PortfolioContainer';
 import {Container , Row, Col} from 'react-bootstrap';
 import CharityLocator from '../images/CharityLocator.jpg';
 import HandyCart from '../images/HandyCart.jpg';
-import VirtualPets from '../images/VirtualPets.jpg';
+import VirtualPets from '../images/VirtualPets.png';
 
 
 export default function Portfolio ( ) {

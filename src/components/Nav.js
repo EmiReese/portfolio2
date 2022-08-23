@@ -17,7 +17,7 @@ export default function NavContainer() {
           <a className="nav-link active" aria-current="page" href="/portfolio2">About</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#Portfolio">Portfolio</a>
+          <a className="nav-link active" aria-current="page" href="/portfolio2/portfolio">Portfolio</a>
         </li>
         <li className="nav-item">
           <a className="nav-link  active" aria-current="page" href="#Contact">Contact</a>
