@@ -1,0 +1,12 @@
+.carousel {
+  display: flex;
+  box-sizing: border-box;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.carouselItem {
+  height: 15%;
+  width: 60%;
+  border: 5px soild black;
+}

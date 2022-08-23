@@ -4,6 +4,7 @@ import Footer from '../components/Footer';
 import About from '../components/About';
 import Portfolio from './Portfolio'
 import ContactInfo from '../components/ContactInfo';
+import DarkVariantExample from './carPortfolio';
 
 export default function Home () {               
     return (
@@ -18,6 +19,7 @@ export default function Home () {
             <About />
             <ContactInfo />
             <Footer />
+            <DarkVariantExample/>
         </div>
 );
 }
