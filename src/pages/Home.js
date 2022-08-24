@@ -2,9 +2,8 @@ import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import About from '../components/About';
-import Portfolio from './Portfolio'
-import ContactInfo from '../components/ContactInfo';
-import DarkVariantExample from './carPortfolio';
+
+
 
 export default function Home () {               
     return (
@@ -15,11 +14,8 @@ export default function Home () {
             <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Volkhov&display=swap" rel="stylesheet" />
             <meta name="viewport" content="width=device-width, initial-scale=1"/>
             <Header />
-            {/* <Portfolio/> */}
             <About />
-            <ContactInfo />
             <Footer />
-            <DarkVariantExample/>
         </div>
 );
 }

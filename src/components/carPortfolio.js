@@ -7,7 +7,7 @@ import '../stylesheets/carPortfolio.css'
 function DarkVariantExample() {
   return (
     <Carousel variant="dark" id="Portfolio" className="carousel">
-      <Carousel.Item className="h-50 w-75 carouselItem">
+      <Carousel.Item className="h-75 w-75 carouselItem">
         <img
              className=" h-100 w-100 "
             title= "Virtual Pets"
@@ -20,7 +20,7 @@ function DarkVariantExample() {
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item className="h-50 w-75">
+      <Carousel.Item className="h-75 w-75 carouselItem">
         <img
           className="d-block h-100 w-100"
           src={HandyCart}
@@ -31,7 +31,7 @@ function DarkVariantExample() {
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item className="h-50 w-75">
+      <Carousel.Item className="h-75 w-75 carouselItem">
         <img
           className="d-block h-100 w-100"
           src={CharityLocator}

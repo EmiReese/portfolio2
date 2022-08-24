@@ -1,6 +1,7 @@
 body {
   background-color: #d7d7db;
   color: #0c0608;
+  font-family: "Open Sans", sans-serif;
 }
 
 /* HEADER */
@@ -23,7 +24,7 @@ p {
   word-wrap: normal;
   font-size: 1.5rem;
   margin-left: 10%;
-  font-family: "Unna", serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .portfolioImg {
