@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';  
-
+import '../stylesheets/contactInfo.css'
 
 export default function Contact() {
 return (
@@ -75,20 +75,20 @@ return (
                 <p></p>
             </li>
 
-            <li><i class="fas fa-phone mt-4 fa-2x"></i>
+            <li class = "contactInfo"><i class="fas fa-phone mt-4 fa-2x "></i>
                 <p>(678) 978-9459</p>
             </li>
 
-            <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+            <li class = "contactInfo"><i class="fas fa-envelope mt-4 fa-2x"></i>
                 <p>emilyreese.ga@gmail.com</p>
             </li>
 
-            <li><i class="fas fa-envelope mt-4 fa-2x"></i>
-                <a href="https://www.linkedin.com/in/emily-reese-50546621b/">LinkedIn Profile</a>
+            <li class = "contactInfo"><i class="fas fa-envelope mt-4 fa-2x"></i>
+                <a href="https://www.linkedin.com/in/emily-reese-50546621b/" className="contactLink">LinkedIn Profile</a>
             </li>
 
-            <li><i class="fas fa-envelope mt-4 fa-2x"></i>
-                <a href="https://github.com/EmiReese">Github Profile</a>
+            <li class = "contactInfo"><i class="fas fa-envelope mt-4 fa-2x"></i>
+                <a href="https://github.com/EmiReese" className="contactLink">Github Profile</a>
             </li>
         </ul>
     </div>
