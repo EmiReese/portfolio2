@@ -3,7 +3,7 @@ import CharityLocator from '../images/CharityLocator.jpg';
 import HandyCart from '../images/HandyCart.jpg';
 import VirtualPets from '../images/VirtualPets.png';
 import '../stylesheets/carPortfolio.css'
-
+import grey from '../images/grey.webp'
 function DarkVariantExample() {
   return (
     <Carousel variant="dark" id="Portfolio" className="carousel">
@@ -11,8 +11,7 @@ function DarkVariantExample() {
         <img
              className=" h-100 w-100 "
             title= "Virtual Pets"
-            link="https://virtualpets1234.herokuapp.com/"
-            src={ VirtualPets }
+            src={ grey }
             alt="A girl with a white dog"
         />
         <Carousel.Caption>
@@ -23,7 +22,7 @@ function DarkVariantExample() {
       <Carousel.Item className="h-75 w-75 carouselItem">
         <img
           className="d-block h-100 w-100"
-          src={HandyCart}
+          src={grey}
           alt="Second slide"
         />
         <Carousel.Caption>
@@ -34,7 +33,7 @@ function DarkVariantExample() {
       <Carousel.Item className="h-75 w-75 carouselItem">
         <img
           className="d-block h-100 w-100"
-          src={CharityLocator}
+          src={grey}
           alt="Third slide"
         />
         <Carousel.Caption>
