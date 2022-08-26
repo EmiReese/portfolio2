@@ -9,17 +9,17 @@ return (
     <section class="mb-4">
     <h2 class="h1-responsive font-weight-bold text-center my-4">Contact Me</h2>
 
-    <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact me directly.</p>
+    <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact me directly at (678) 978 9459 or emilyreese.ga@gmail.com.</p>
 
     <div class="row form">
 
-      <div class="col-md-9 mb-md-0 mb-5">
+      <div class="col-md-6 offset-4 mb-md-0 mb-2">
          <form  action="mailto:emilyreese.ga@gmail.com"  enctype="text/plain" method="POST">
 
           
             <div class="row">
 
-                <div class="col-md-6">
+                <div class="col-md-3">
                     <div class="md-form mb-0">
                         <input type="text" id="name" name="name" class="form-control" />
                         <label for="name" class="">Your name</label>
@@ -27,7 +27,7 @@ return (
                 </div>
            
            
-                <div class="col-md-6">
+                <div class="col-md-3">
                     <div class="md-form mb-0">
                         <input type="text" id="email" name="email" class="form-control"/>
                         <label for="email" class="">Your email</label>
@@ -40,7 +40,7 @@ return (
 
       
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-9">
                     <div class="md-form mb-0">
                         <input type="text" id="subject" name="subject" class="form-control"/>
                         <label for="subject" class="">Subject</label>
@@ -51,7 +51,7 @@ return (
             <div class="row">
 
 
-                <div class="col-md-12">
+                <div class="col-md-9">
 
                     <div class="md-form">
                         <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
@@ -77,7 +77,7 @@ return (
                 <p></p>
             </li>
 
-            <li class = "contactInfo"><i class="fas fa-phone mt-4 fa-2x "></i>
+            {/* <li class = "contactInfo"><i class="fas fa-phone mt-4 fa-2x "></i>
                 <p>(678) 978-9459</p>
             </li>
 
@@ -91,7 +91,7 @@ return (
 
             <li class = "contactInfo"><i class="fas fa-envelope mt-4 fa-2x"></i>
                 <a href="https://github.com/EmiReese" className="contactLink">Github Profile</a>
-            </li>
+            </li> */}
         </ul>
     </div>
  
