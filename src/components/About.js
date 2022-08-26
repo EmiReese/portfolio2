@@ -3,6 +3,7 @@ import  Emily from '../images/Emily.png';
 import 'bootstrap/dist/css/bootstrap.min.css';  
 import {Container , Row, Col} from 'react-bootstrap'
 import Certifications from './Certifications';
+import '../stylesheets/about.css'
 export default function About() {
   return (
     <div >
@@ -19,7 +20,7 @@ export default function About() {
         </p>
         </Col>
 
-      <Col xs={12} md={4}>
+      <Col xs={12} md={4} className="aboutImgContainer">
         <div className='d-flex justify-content-center'>
           <img className="w-75  shadow bg-white rounded border-right border-dark" src= {Emily} alt="Emily Reese" />
         </div>

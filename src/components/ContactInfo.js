@@ -3,9 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../stylesheets/contactInfo.css'
 
 export default function Contact() {
-    const submitForm = () =>{
-
-    }
+    
 return (
 
     <section class="mb-4">
@@ -88,7 +86,7 @@ return (
             </li>
 
             <li class = "contactInfo"><i class="fas fa-envelope mt-4 fa-2x"></i>
-                <a href="https://www.linkedin.com/in/emily-reese-50546621b/" className="contactLink">LinkedIn Profile</a>
+                <a href="https://www.linkedin.com/in/emily-reese-50546621b" className="contactLink">LinkedIn Profile</a>
             </li>
 
             <li class = "contactInfo"><i class="fas fa-envelope mt-4 fa-2x"></i>
