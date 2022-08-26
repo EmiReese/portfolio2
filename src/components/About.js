@@ -2,6 +2,7 @@ import React from 'react';
 import  Emily from '../images/Emily.png';
 import 'bootstrap/dist/css/bootstrap.min.css';  
 import {Container , Row, Col} from 'react-bootstrap'
+import Certifications from './Certifications';
 export default function About() {
   return (
     <div >
@@ -25,7 +26,7 @@ export default function About() {
       </Col>
   </Row>
 </Container>
-
+<Certifications />
     </div>
   );
 }

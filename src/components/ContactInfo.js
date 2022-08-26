@@ -3,6 +3,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../stylesheets/contactInfo.css'
 
 export default function Contact() {
+    const submitForm = () =>{
+
+    }
 return (
 
     <section class="mb-4">
@@ -13,7 +16,7 @@ return (
     <div class="row form">
 
       <div class="col-md-9 mb-md-0 mb-5">
-         <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+         <form  action="mailto:emilyreese.ga@gmail.com"  enctype="text/plain" method="POST">
 
           
             <div class="row">
@@ -60,12 +63,13 @@ return (
                 </div>
             </div>
            
-
+            <input class="text-center text-md-left submitBtn" type="submit" name="submit" value="Submit"></input>
         </form>
 
-        <div class="text-center text-md-left">
+        {/* <div class="text-center text-md-left">
             <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
-        </div>
+
+        </div> */}
         <div class="status"></div>
     </div>
 
