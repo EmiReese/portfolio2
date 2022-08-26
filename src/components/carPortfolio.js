@@ -1,7 +1,4 @@
 import Carousel from 'react-bootstrap/Carousel';
-import CharityLocator from '../images/CharityLocator.jpg';
-import HandyCart from '../images/HandyCart.jpg';
-import VirtualPets from '../images/VirtualPets.png';
 import '../stylesheets/carPortfolio.css'
 import grey from '../images/grey.webp'
 function DarkVariantExample() {

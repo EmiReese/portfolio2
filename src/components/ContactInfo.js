@@ -6,11 +6,11 @@ export default function Contact() {
 return (
 
     <section class="mb-4">
-        <h2 class="h1-responsive font-weight-bold text-center my-4">Contact Me</h2>
+    <h2 class="h1-responsive font-weight-bold text-center my-4">Contact Me</h2>
 
     <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact me directly.</p>
 
-    <div class="row">
+    <div class="row form">
 
       <div class="col-md-9 mb-md-0 mb-5">
          <form id="contact-form" name="contact-form" action="mail.php" method="POST">
