@@ -10,12 +10,13 @@
 }
 .form {
   margin: 5%;
+  width: 80%;
 }
 
 .submitBtn {
   margin-top: 2%;
   background-color: blue;
-  box-shadow: 0.155rem 0.115rem #0c0608;
+  box-shadow: 0.1rem #0c0608;
   opacity: 0.7;
   border-radius: 5px;
   color: white;

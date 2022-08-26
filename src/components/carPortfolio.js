@@ -11,9 +11,9 @@ function DarkVariantExample() {
             src={ grey }
             alt="A girl with a white dog"
         />
-        <Carousel.Caption>
-          <h5>First slide label</h5>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        <Carousel.Caption className='carouselCaption'>
+          <h5>Virtual Pets</h5>
+          <p>Virtual Pets is a web-based app that allows for pet parents to make telehealth consultation appointments with Veterinarians. </p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item className="h-75 w-75 carouselItem">
@@ -22,9 +22,9 @@ function DarkVariantExample() {
           src={grey}
           alt="Second slide"
         />
-        <Carousel.Caption>
-          <h5>Second slide label</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <Carousel.Caption className='carouselCaption'>
+          <h5>HandyCart</h5>
+          <p>This is a retail purchasing application leveraging contact list technology and financial budget parameters.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item className="h-75 w-75 carouselItem">
@@ -33,10 +33,10 @@ function DarkVariantExample() {
           src={grey}
           alt="Third slide"
         />
-        <Carousel.Caption>
-          <h5>Third slide label</h5>
+        <Carousel.Caption className='carouselCaption'>
+          <h5>Charity Locator</h5>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          An application intended to help underprivileged people or families connect to non-profit organizations closest to their location with resources like food.
           </p>
         </Carousel.Caption>
       </Carousel.Item>
