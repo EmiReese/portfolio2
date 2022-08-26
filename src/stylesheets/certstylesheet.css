@@ -1,4 +1,12 @@
+.certContainer {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: flex-wrap;
+  align-items: center;
+}
+
 .certImage {
   max-height: 450px;
   max-width: 450px;
+  margin: 10% 2.5%;
 }

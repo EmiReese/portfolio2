@@ -6,7 +6,7 @@ import "../stylesheets/certstylesheet.css"
 
 export default function Certifications (){
     return (
-        <div>
+        <div class="certContainer">
                <img  src={ GT }
                         alt="Full Stack Flex Web Development Course Completion Certificate"
                         className="certImage"
