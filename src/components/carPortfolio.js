@@ -1,18 +1,17 @@
 import Carousel from 'react-bootstrap/Carousel';
 import '../stylesheets/carPortfolio.css'
-import grey from '../images/grey.webp'
-import VP from '../images/VP.png'
-import HC from '../images/HC.png'
+import VirtualPets from '../images/VirtualPets.png'
+import HC from '../images/HC.jpg'
+import CL from '../images/CL.png'
 
 function DarkVariantExample() {
   return (
     <Carousel variant="dark" id="Portfolio" className="carousel" fade>
-      <Carousel.Item className="h-100 w-100 carouselItem">
+      <Carousel.Item className="h-50 w-100 carouselItem">
         <img
-             className=" h-100 w-50 "
             title= "Virtual Pets"
-            src={ VP }
-            alt="A grey background"
+            src={ VirtualPets }
+            alt="A deployment of Virtual Pets application"
         />
         <Carousel.Caption className='carouselCaption h-100 w-50'>
           <h5>Virtual Pets</h5>
@@ -23,9 +22,8 @@ function DarkVariantExample() {
 
       <Carousel.Item className="h-100 w-100 carouselItem">
         <img
-          className="h-100 w-50"
-          src={grey}
-          alt="a grey background"
+          src={HC}
+          alt="A notebook and list"
         />
         <Carousel.Caption className='carouselCaption  h-100 w-50'>
      
@@ -36,8 +34,7 @@ function DarkVariantExample() {
       </Carousel.Item>
       <Carousel.Item className="h-100 w-100 carouselItem">
         <img
-          className="h-100 w-50"
-          src={HC}
+          src={CL}
           alt="A deployment of the application"
         />
         <Carousel.Caption className='carouselCaption  h-100 w-50'>
