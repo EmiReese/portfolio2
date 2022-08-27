@@ -24,3 +24,10 @@
   border-radius: 5px;
   color: white;
 }
+
+.phoneNum {
+  text-decoration: underline;
+}
+.currentEmail {
+  text-decoration: underline;
+}

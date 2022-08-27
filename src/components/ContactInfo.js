@@ -9,7 +9,7 @@ return (
     <section class="mb-4">
     <h2 class="h1-responsive font-weight-bold text-center my-4">Contact Me</h2>
 
-    <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact me directly at (678) 978 9459 or emilyreese.ga@gmail.com.</p>
+    <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact me directly at <span className="phoneNum">(678) 978 9459</span> or <span className="currentEmail">emilyreese.ga@gmail.com</span>.</p>
 
     <div class="row form">
 

@@ -29,3 +29,17 @@
 .carouselCaption h5 {
   color: #f2f2f2;
 }
+
+.portfolioDeployLink {
+  margin: 5%;
+  padding: 2%;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.portfolioCodeLink {
+  margin: 5%;
+  padding: 2%;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
