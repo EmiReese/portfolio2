@@ -9,7 +9,7 @@ return (
     <section class="mb-4">
     <h2 class="h1-responsive font-weight-bold text-center my-4">Contact Me</h2>
 
-    <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact me directly at <span className="phoneNum">(678) 978 9459</span> or <span className="currentEmail">emilyreese.ga@gmail.com</span>.</p>
+    <p class="text-center w-responsive mx-auto mb-5">If you have any questions, please do not hesitate to contact me directly.</p>
 
     <div class="row form">
 
@@ -92,12 +92,14 @@ return (
             <li class = "contactInfo"><i class="fas fa-envelope mt-4 fa-2x"></i>
                 <a href="https://github.com/EmiReese" className="contactLink">Github Profile</a>
             </li> */}
+
         </ul>
     </div>
  
 
 </div>
-
+<h4>(678) 978-9459</h4>
+<h4>emilyreese.ga@gmail.com</h4>
 </section>
 
 );
