@@ -37,4 +37,8 @@
   font-weight: bold;
 }
 
-@media screen;
+@media screen and (max-width: 1200px) {
+  .carousel img {
+    opacity: 0.1;
+  }
+}
