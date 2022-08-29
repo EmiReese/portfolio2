@@ -23,16 +23,17 @@ const client = new ApolloClient({
 //These routes need to be created, this area is a work in progress
 function App() {
   return (
+   
     <ApolloProvider client={client}>
       <Router>
             <Routes>
-              {/* The route for portfolios/homepage  */}
-              <Route 
+              {/* The route for about me/homepage  */}
+              <Route
               path= "/portfolio2"
               element={<Home/>}
                />
 
-              {/* The route for the about me section */}
+              {/* The route for the portfolio section */}
               <Route 
               path= "/portfolio2/portfolio"
               element={<Portfolio/>}
@@ -46,6 +47,7 @@ function App() {
 
       </Router>
     </ApolloProvider>
+  
   );
 }
 
