@@ -3,8 +3,8 @@
   box-sizing: border-box;
   margin-top: 12.5%;
   margin-left: 10%;
-  /* max-height: 1500px;
-  max-width: 1300px; */
+  max-height: 1500px;
+  max-width: 1300px;
 }
 .carouselItem {
   width: 60%;
@@ -23,12 +23,11 @@
 }
 .carouselCaption p {
   color: black;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .carouselCaption h5 {
   color: black;
-  font-size: 1.5rem;
 }
 
 .portfolioCodeLink {

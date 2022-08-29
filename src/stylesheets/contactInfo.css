@@ -25,6 +25,9 @@
   color: white;
 }
 
-h4 {
-  text-align: center;
+.phoneNum {
+  text-decoration: underline;
+}
+.currentEmail {
+  text-decoration: underline;
 }

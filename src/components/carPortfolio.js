@@ -7,7 +7,7 @@ import CL from '../images/CL.png'
 function DarkVariantExample() {
   return (
     <Carousel variant="dark" id="Portfolio" className="carousel" fade>
-      <Carousel.Item className="h-100 w-100 carouselItem">
+      <Carousel.Item className="h-50 w-100 carouselItem">
         <img
             title= "Virtual Pets"
             src={ VirtualPets }
