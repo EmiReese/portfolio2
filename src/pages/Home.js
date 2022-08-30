@@ -2,7 +2,8 @@ import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import About from '../components/About';
-
+import Portfolio from '../pages/Portfolio'
+import ContactInfo from '../components/ContactInfo';
 
 
 export default function Home () {               
@@ -15,6 +16,8 @@ export default function Home () {
             <meta name="viewport" content="width=device-width, initial-scale=1"/>
             <Header />
             <About />
+            <Portfolio/>
+            <ContactInfo />
             <Footer />
         </div>
 );

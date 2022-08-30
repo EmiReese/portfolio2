@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import '../src/App.css';
-
+// import {Route, HashRouter as Router, Routes, HashRouter} from 'react-router-dom';
 //Importing component 
 import Home from './pages/Home';
 import Portfolio from './pages/Portfolio';
@@ -23,9 +23,9 @@ const client = new ApolloClient({
 //These routes need to be created, this area is a work in progress
 function App() {
   return (
-   
-    <ApolloProvider client={client}>
-      <Router>
+
+      <ApolloProvider client={client}>
+      <Router baseline="/">
             <Routes>
               {/* The route for about me/homepage  */}
               <Route
@@ -46,7 +46,9 @@ function App() {
             </Routes>
 
       </Router>
-    </ApolloProvider>
+
+  
+   </ApolloProvider> 
   
   );
 }

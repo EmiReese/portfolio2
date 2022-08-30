@@ -3,8 +3,9 @@
   box-sizing: border-box;
   margin-top: 12.5%;
   margin-left: 10%;
-  max-height: 1500px;
-  max-width: 1300px;
+  /* max-height: 1500px;
+  max-width: 1300px; */
+  margin-bottom: 12.5%;
 }
 .carouselItem {
   width: 60%;
@@ -23,11 +24,12 @@
 }
 .carouselCaption p {
   color: black;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 .carouselCaption h5 {
   color: black;
+  font-size: 1.5rem;
 }
 
 .portfolioCodeLink {
@@ -35,4 +37,10 @@
   padding: 2%;
   font-size: 1.5rem;
   font-weight: bold;
+}
+
+@media screen and (max-width: 1200px) {
+  .carousel img {
+    opacity: 0.1;
+  }
 }
