@@ -6,8 +6,8 @@ import Certifications from './Certifications';
 import '../stylesheets/about.css'
 export default function About() {
   return (
-    <div >
-      <Container fluid="lg p-5 mt-5">
+    <div className="aboutContainer">
+      <Container fluid="lg p-5 mt-5" >
   <Row>
   <Col xs={12} md={6} lg={12} className = "mb-5">
     <h2>About me</h2>
