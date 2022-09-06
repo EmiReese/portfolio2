@@ -1,3 +1,7 @@
+.contactP {
+  margin-top: 5%;
+}
+
 .contactInfo {
   font-size: 2rem;
   color: black;
@@ -12,7 +16,7 @@
 .form {
   align-items: center;
   justify-items: center;
-  margin: 0;
+  margin-top: 0;
   padding: 0;
 }
 

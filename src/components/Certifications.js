@@ -7,6 +7,7 @@ import "../stylesheets/certstylesheet.css"
 export default function Certifications (){
     return (
         <div class="certsContainer">
+            <h2>Certifications</h2>
                <img  src={ GT }
                         alt="Full Stack Flex Web Development Course Completion Certificate"
                         id="CertsGeorgiaTech"

@@ -1,3 +1,9 @@
+h2 {
+  text-align: center;
+  font-size: 4 rem;
+  padding: 0%;
+}
+
 .certContainer {
   box-sizing: border-box;
   display: flex;
@@ -8,7 +14,7 @@
 .certsImage {
   max-height: 450px;
   max-width: 450px;
-  margin: 10% 2.5%;
+  margin: 5% 2.5%;
 }
 
 @media screen and (max-width: 1200px) {

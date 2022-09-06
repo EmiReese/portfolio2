@@ -1,7 +1,14 @@
+h2 {
+  text-align: center;
+  font-size: 4 rem;
+  margin: 0;
+  padding: 0;
+}
+
 .carousel {
   display: flex;
   box-sizing: border-box;
-  margin-top: 12.5%;
+  margin-top: 5%;
   margin-left: 10%;
   /* max-height: 1500px;
   max-width: 1300px; */

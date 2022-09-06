@@ -9,7 +9,7 @@ return (
     <section class="mb-4">
     <h2 class="h1-responsive font-weight-bold text-center my-4">Contact Me</h2>
 
-    <p class="text-center w-responsive mx-auto mb-5">If you have any questions, please do not hesitate to contact me directly.</p>
+    <p className="text-center w-responsive mx-auto mb-5 contactP">If you have any questions, please do not hesitate to contact me directly.</p>
 
     <div class="row form">
 

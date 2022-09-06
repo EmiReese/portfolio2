@@ -10,7 +10,7 @@ export default function About() {
       <Container fluid="lg p-5 mt-5">
   <Row>
   <Col xs={12} md={6} lg={12} className = "mb-5">
-    <h3>About me</h3>
+    <h2>About me</h2>
     </Col>
   <Col xs ={12} md={8}>
 

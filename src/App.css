@@ -5,14 +5,18 @@ body {
 }
 
 /* HEADER */
-
 .header h1 {
   text-align: center;
   padding-top: 5%;
-  font-size: 2.5 rem;
 }
-/* PORTFOLIO  CARDS */
-
+.header h2 {
+  text-align: center;
+  padding-top: 5%;
+  font-size: 4 rem;
+}
+#About {
+  margin-top: 5%;
+}
 .page-section {
   display: flex;
   padding: 5%;
@@ -25,23 +29,6 @@ p {
   font-size: 1.5rem;
   margin-left: 10%;
   font-family: "Open Sans", sans-serif;
-}
-
-.portfolioImg {
-  height: 25rem;
-  width: 18.75rem;
-  padding: 0;
-  margin: 0;
-  box-shadow: 0.31rem 0.625rem 1.125rem #0c0608;
-  opacity: 0.3s;
-}
-.portfolioImg:hover {
-  transform: translate(1%, -6%);
-}
-
-.portfolio1 {
-  height: 25rem;
-  width: 18.75rem;
 }
 
 .address a {
