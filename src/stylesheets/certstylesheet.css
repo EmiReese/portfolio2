@@ -5,8 +5,15 @@
   align-items: center;
 }
 
-.certImage {
+.certsImage {
   max-height: 450px;
   max-width: 450px;
   margin: 10% 2.5%;
+}
+
+@media screen and (max-width: 1200px) {
+  .certsContainer {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
 }
