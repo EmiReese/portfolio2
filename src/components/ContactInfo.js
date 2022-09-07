@@ -6,7 +6,7 @@ export default function Contact() {
     
 return (
 
-    <section class="mb-4">
+    <section class="mb-4" id="contact">
     <h2 class="h1-responsive font-weight-bold text-center my-4">Contact Me</h2>
 
     <p className="text-center w-responsive mx-auto mb-5 contactP">If you have any questions, please do not hesitate to contact me directly.</p>
