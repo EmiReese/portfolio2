@@ -46,7 +46,9 @@ h2 {
 
 @media screen and (max-width: 1200px) {
   .carousel img {
-    opacity: 0;
+    /* opacity: 0; */
+    display: none;
+    z-index: 0;
   }
   .carouselCaption p {
     font-size: 1rem;
@@ -55,6 +57,10 @@ h2 {
     margin-top: 10%;
     margin-right: 30%;
     height: 500px;
-    justify-content: center;
+    z-index: 1;
+    /* justify-content: center; */
+  }
+  Carousel a {
+    display: none;
   }
 }
