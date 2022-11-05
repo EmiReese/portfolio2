@@ -27,7 +27,6 @@ export default function About() {
       </Col>
   </Row>
 </Container>
-<Certifications />
     </div>
   );
 }

@@ -4,7 +4,7 @@ import Footer from '../components/Footer';
 import About from '../components/About';
 import Portfolio from '../pages/Portfolio'
 import ContactInfo from '../components/ContactInfo';
-
+import Certifications from '../components/Certifications';
 
 export default function Home () {               
     return (
@@ -18,6 +18,7 @@ export default function Home () {
             <About />
             <Portfolio/>
             <ContactInfo />
+            <Certifications />
             <Footer />
         </div>
 );

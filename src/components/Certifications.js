@@ -14,6 +14,7 @@ export default function Certifications (){
             <h2>Certifications</h2>
             <Row>
                 <Col>
+                <h3>Full Stack </h3>
                      <img  src={ GT }
                         alt="Full Stack Flex Web Development Course Completion Certificate"
                         id="CertsGeorgiaTech"
@@ -21,6 +22,7 @@ export default function Certifications (){
                         />
                 </Col>
                 <Col>
+                <h3>Javascript</h3>
                     <img  src={ JS }
                         alt="Javascript Course Completion Certificate"
                         id="CertsJavascript"
@@ -29,6 +31,7 @@ export default function Certifications (){
                 </Col>  
             
                 <Col>
+                        <h3>CSS</h3>
                         <img src={ CSS } 
                         alt="CSS Course Completion Certificate"
                         id="CertsCSS"
@@ -37,6 +40,7 @@ export default function Certifications (){
                 </Col>
           
                 <Col>
+                    <h3>Azure</h3>
                         <img src={ AzureFun } 
                         alt="Azure Fundamentals Course Certificate"
                         id="CertsAzureFun"
